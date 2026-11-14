@@ -1,0 +1,5 @@
+# Google AdMob app-ads.txt
+# Developer Domain: CyberJIT.github.io
+# Publisher ID: pub-3507586838225420
+
+google.com, pub-3507586838225420, DIRECT, f08c47fec0942fa0
