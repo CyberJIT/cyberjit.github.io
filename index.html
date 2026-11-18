@@ -1,1 +1,134 @@
-<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CyberJIT Apps</title><body style="font-family:system-ui;max-width:42rem;margin:2rem auto;padding:0 1rem"><h1>CyberJIT Apps</h1><p><a href="privacy/">Privacy Policy</a></p></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CyberJIT Apps — Precision Android Micro-Utilities</title>
+  <style>
+    :root {
+      color-scheme: dark light;
+      --bg: #0f172a;
+      --card: rgba(30, 41, 59, 0.75);
+      --border: rgba(148, 163, 184, 0.2);
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --btn-bg: #0284c7;
+      --btn-text: #ffffff;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f8fafc;
+        --card: #ffffff;
+        --border: #e2e8f0;
+        --text: #0f172a;
+        --muted: #475569;
+        --accent: #0284c7;
+        --btn-bg: #0284c7;
+        --btn-text: #ffffff;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      max-width: 52rem;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem;
+      line-height: 1.6;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      margin: 0 0 0.5rem 0;
+      font-size: 2rem;
+      letter-spacing: -0.02em;
+    }
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin: 0 0 1rem 0;
+    }
+    .apps-grid {
+      display: grid;
+      gap: 1.25rem;
+      margin-bottom: 2.5rem;
+    }
+    .app-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 0.875rem;
+      padding: 1.5rem;
+      backdrop-filter: blur(12px);
+    }
+    .app-card h3 {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.25rem;
+    }
+    .app-card p {
+      margin: 0 0 1.25rem 0;
+      color: var(--muted);
+    }
+    .play-link {
+      display: inline-block;
+      background: var(--btn-bg);
+      color: var(--btn-text);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      padding: 0.55rem 1.1rem;
+      border-radius: 0.5rem;
+    }
+    .play-link:hover {
+      opacity: 0.92;
+    }
+    footer {
+      border-top: 1px solid var(--border);
+      padding-top: 1.25rem;
+      font-size: 0.95rem;
+      color: var(--muted);
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CyberJIT Apps</h1>
+    <p class="subtitle">Zero-PII, on-device Android micro-utilities built for speed and privacy.</p>
+  </header>
+
+  <main>
+    <h2>Published on Google Play</h2>
+    <div class="apps-grid" id="apps-list">
+      <article class="app-card" data-package="com.cyberjit.cuebeep">
+        <h3>CueBeep: Routine Music Timer</h3>
+        <p>Precision audio cutter, pitch-preserving tempo shaper (+1% to +5%), and official 1000 Hz competition start beep synthesizer for rhythmic gymnastics, artistic floor, cheer, and figure skating routines. Processes audio 100% locally on your device.</p>
+        <a class="play-link" href="https://play.google.com/store/apps/details?id=com.cyberjit.cuebeep" target="_blank" rel="noopener noreferrer">Get it on Google Play &rarr;</a>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <a href="privacy/">Privacy Policy</a>
+    <a href="app-ads.txt">app-ads.txt</a>
+    <a href="mailto:jiterraza@gmail.com">Contact</a>
+  </footer>
+</body>
+</html>
